@@ -2,7 +2,7 @@
   collections:
     - mynamespace.mycollection
   roles:
-    - mynamespace.test-role
+    - test-role
 #  tasks:
 #    - import_role:
 #        name: test-role
