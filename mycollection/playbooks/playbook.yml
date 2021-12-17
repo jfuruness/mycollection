@@ -1,6 +1,8 @@
 - hosts: localhost
   collections:
     - mynamespace.mycollection
-  tasks:
-    - import_role:
-        name: test-role
+  roles:
+    - mynamespace.test-role
+#  tasks:
+#    - import_role:
+#        name: test-role
